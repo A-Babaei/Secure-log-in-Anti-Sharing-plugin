@@ -69,10 +69,12 @@ Enable and configure these to protect your content:
 <img width="952" height="685" alt="image" src="https://github.com/user-attachments/assets/8f4f1c94-e54e-4a7e-a85c-1f57cb2da751" />
 <img width="956" height="241" alt="image" src="https://github.com/user-attachments/assets/d89389ad-1f27-49c3-a12c-617b288ddd64" />
 
-
-
-SettingDescriptionDefaultRecommendationEnable Anti-Sharing FeaturesBlocks right-click, context menus, and adds watermarks to deter downloads/sharing.OffEnable for all videos.Enable Geolocation FlaggingTracks viewer location via browser API; flags if outside expected range.OffEnable for region-locked content.Enable OTP VerificationSends a one-time password via email before playback.OffEnable for premium/paid videos.IP ThresholdMax unique IPs per user/session before flagging (e.g., 5).53-7 based on audience.Distance Threshold (km)Max location change allowed (e.g., 100km); flags potential sharing.10050-200km.Admin Notification EmailEmail for security alerts (e.g., flags, breaches).Your admin emailSet a dedicated address.Session LimitMax concurrent sessions per user (e.g., 1).Off (1)Enable with limit 1-2.Device Fingerprint ThresholdMax unique devices per user (e.g., 3).32-4.Content Access ThresholdMax views per session/day (e.g., 10).105-20.IP Grace Period (days)Days to ignore IP changes (e.g., travel).77-30.
 Settings are saved securely and apply globally or per-video via shortcode attributes.
+
+
+Setting Description Default Recommendation Enable Anti-Sharing Features Blocks right-click, context menus, and adds watermarks to deter downloads/sharing.OffEnable for all videos. Enable Geolocation Flagging Tracks viewer location via browser API; flags if outside the expected range.OffEnable for region-locked content. Enable OTP Verification Send a one-time password via email before playback.OffEnable for premium/paid videos.IP ThresholdMax unique IPs per user/session before flagging (e.g., 5).53-7 based on audience.Distance Threshold (km)Max location change allowed (e.g., 100km); flags potential sharing.10050-200km.Admin Notification Email for security alerts (e.g., flags, breaches). Your admin email Set a dedicated address. Session Limit: Max concurrent sessions per user (e.g., 1).Off (1)Enable with limit 1-2.Device Fingerprint Threshold Max unique devices per user (e.g., 3).Content Access Threshold Max views per session/day (e.g., 10).105-20.IP Grace Period (days)Days to ignore IP changes (e.g., travel).77-30.
+Settings are saved securely and apply globally or per-video via shortcode attributes.
+
 Usage
 Embedding Videos
 Use the [secure_video_player] shortcode in posts, pages, or widgets. Example:
@@ -156,7 +158,7 @@ Support
 
 Issues: GitHub Issues.
 Forum: WordPress.org (once submitted).
-Email: support@yourdomain.com (or from repo).
+Email: ablofazlbabaei@gmail.com 
 
 Changelog
 1.0.0 - December 6, 2025
